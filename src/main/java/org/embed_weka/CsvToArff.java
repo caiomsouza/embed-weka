@@ -8,8 +8,14 @@ import weka.core.converters.CSVLoader;
 public class CsvToArff {
     public static void main(String[] args) {
         try {
+        	
+        	// Before you execute this code, please download the dataset at https://raw.githubusercontent.com/minervarobots/minerva-auto-mining/master/minerva-auto-mining/dataset/csv-dataset/kaggle-santander-train.csv
+        	
+        	// Place the file at the folder dataset/embed-weka-dataset
                     	
         	String f1 = "dataset/embed-weka-dataset/kaggle-santander-train.csv";
+        
+        	
             String f2 = "dataset/embed-weka-dataset/kaggle-santander-train.arff";
             
 

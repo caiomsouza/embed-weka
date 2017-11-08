@@ -13,12 +13,14 @@ public class CsvToArff {
         	
         	// Place the file at the folder dataset/embed-weka-dataset
                     	
-        	String f1 = "dataset/embed-weka-dataset/kaggle-santander-train.csv";
-        
+        	//String f1 = "dataset/embed-weka-dataset/kaggle-santander-train.csv";
+        	String f1 = "dataset/telemarketing.csv";        
         	
-            String f2 = "dataset/embed-weka-dataset/kaggle-santander-train.arff";
-            
+            //String f2 = "dataset/embed-weka-dataset/kaggle-santander-train.arff";
+            String f2 = "dataset/telemarketing.arff";
 
+            
+            
             System.out.println("Starting ....");
             
             // load the CSV file (input file)
